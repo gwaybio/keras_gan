@@ -43,16 +43,13 @@ Discriminator
 ## Results
 
 Random example of MNIST images
-
 ![MNIST images](figures/random_MNIST_examples.png?raw=true)  
 
 Random noise vectors of untrained generator
-
 ![z vector noise](figures/random_z_vectors.png?raw=true)  
 
 Early GAN training process - shown are fixed `z` for 500 epochs
 (image is every 25 epochs).
-
 ![early training](figures/training_process.gif?raw=true)  
 
 Random generated results
