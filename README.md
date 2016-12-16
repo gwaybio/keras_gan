@@ -20,7 +20,7 @@ discriminative model is trained to detect if a given sample is real
 or fake. Once both models are tuned, then the generative model can
 quickly generate new and realistic samples from a random uniform
 input distribution. In practice, the model trains reasonably fast
-but is quite instable.
+but are quite unstable.
 
 Generally, I have found batch normalization
 ([Ioffe and Szegedy 2015](https://arxiv.org/abs/1502.03167)) to be
