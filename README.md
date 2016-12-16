@@ -7,7 +7,7 @@
 
 In the following repository, I implement a traditional generative
 adversarial network (GAN) using two multilayer perceptrons (MLP)
-that define the generator and discriminator class. I build a model
+that define the generator and discriminator classes. I build a model
 that can generate somewhat realistic
 [MNIST examples](http://yann.lecun.com/exdb/mnist/).
 The architecture I use is very similar to the MLP GAN proposed by
@@ -28,18 +28,6 @@ essential to the training process. Without batch normalization, all
 of my generated images looked exactly the same; a phenomenon also
 observed by [Salimans et al. 2016](https://arxiv.org/abs/1606.03498).
 
-## Architecture
-
-Generator
-Discriminator
-
-* Parameters
-  * Epochs:
-  * Batch size: 
-  * Optimizer:
-    * Learning rate:
-    * Learning rate decay:
-
 ## Results
 
 Random example of MNIST images
@@ -53,6 +41,7 @@ Early GAN training process - shown are fixed `z` for 500 epochs
 ![early training](figures/training_process.gif?raw=true)  
 
 Random generated results
+![random generated examples](figures/random_generated_examples.png?raw=true)
 
 ## Other Keras GAN repositories
 
@@ -61,9 +50,10 @@ GAN models also implemented in Keras:
 
 | User | Link to Repo | Model |
 | ---- | ------------ | ----- |
-| @osh | https://github.com/osh/KerasGAN | CNN |
-| @jacobgil | https://github.com/jacobgil/keras-dcgan | CNN |
-| @phreeza | https://github.com/phreeza/keras-GAN | CNN/MLP |
-| @rajahkumarmp | https://github.com/rajathkumarmp/DCGAN | CNN |
+| [@osh](https://github.com/osh) | [KerasGAN](https://github.com/osh/KerasGAN) | CNN |
+| [@jacobgil](https://github.com/jacobgil) | [keras-dcgan](https://github.com/jacobgil/keras-dcgan) | CNN |
+| [@phreeza](https://github.com/phreeza) | [keras-GAN](https://github.com/phreeza/keras-GAN) | CNN/MLP |
+| [@rajahkumarmp](https://github.com/rajakumarmp) | [DCGAN](https://github.com/rajathkumarmp/DCGAN) | CNN |
+| [@fchollet](https://github.com/fchollet) | [keras](https://github.com/fchollet/keras/blob/master/examples/mnist_acgan.py) | ACGAN |
 
 If I am missing any, please add to this list!
