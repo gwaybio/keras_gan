@@ -40,7 +40,7 @@ Early GAN training process - shown are fixed `z` for 500 epochs
 (image is every 25 epochs).
 ![early training](figures/training_process.gif?raw=true)  
 
-Random generated results
+Truly random generated results - wouldn't fool anyone but they're getting there!
 ![random generated examples](figures/random_generated_examples.png?raw=true)
 
 ## Other Keras GAN repositories
